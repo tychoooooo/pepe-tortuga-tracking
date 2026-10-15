@@ -22,4 +22,3 @@ class TrackingHandler(http.server.SimpleHTTPRequestHandler):
 with socketserver.TCPServer(("", PORT), TrackingHandler) as httpd:
     print(f"Sirviendo panel de rastreo en el puerto {PORT}")
     httpd.serve_forever()
-EOF
