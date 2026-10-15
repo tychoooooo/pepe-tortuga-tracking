@@ -1,4 +1,3 @@
-cat << 'EOF' > app.py
 import http.server
 import socketserver
 
